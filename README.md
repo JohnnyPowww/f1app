@@ -28,5 +28,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Działanie aplikacji
 Aplikacja wykorzystuje Angular i współpracuje z API, aby wyświetlić informacje o wszystkich kierowcach Formuły 1 z wybranego roku. Dane dotyczące kierowców F1 są pobierane z Ergast Developer API.
-Więcej informacji na temat kierowców jest pobierana z API Wikipedii. Stroną główną jest strona z listą kierowców z której jest routing na stronę z konkretnym kierowcą. 
+Więcej informacji na temat kierowców jest pobierana z API Wikipedii. Stroną główną jest strona z listą kierowców z której jest przekierowanie na stronę z konkretnym kierowcą. 
 
