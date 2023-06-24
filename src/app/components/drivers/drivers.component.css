@@ -1,0 +1,35 @@
+.content {
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+  }
+  table {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #ff1801;
+    border-style: solid;
+    color: #000000;
+    cursor: pointer;
+  }
+  
+  table td {
+    border-width: 2px;
+    border-color: #ff1801;
+    border-style: solid;
+    padding: 5px;
+    text-align: center;
+    height: 250px;
+  }
+  table th{
+    border-width: 2px;
+    border-color: #ff1801;
+    border-style: solid;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+  }

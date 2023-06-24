@@ -1,0 +1,27 @@
+<div class="content" role="main">
+    <div class="year-select">
+        <select [(ngModel)]="selectedYear" (change)="getDrivers(selectedYear+'')">
+          <option *ngFor="let year of years" >{{ year }}</option>
+        </select>
+    </div>
+
+  
+  <table>
+    <tr>
+      <th>Zdjęcie</th>
+      <th>Imię</th>   
+      <th>Nazwisko</th>
+      <th>Data urodzenia</th>
+      <th>Narodowość</th>
+      <th>Numer wyścigowy</th>
+    </tr>
+    <tr *ngFor="let driver of drivers" routerLink="/driver/{{driver.driverId}}">
+      <td><img width="200px" height="250px" src={{driver.imageUrl}} alt="Brak zdjęcia"/></td>
+      <td>{{driver.givenName}}</td>   
+      <td>{{driver.familyName}}</td>
+      <td>{{driver.dateOfBirth}}</td>
+      <td>{{driver.nationality}}</td>
+      <td>{{driver.permanentNumber}}</td>
+    </tr>
+  </table>
+</div>
